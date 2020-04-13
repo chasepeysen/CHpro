@@ -1,0 +1,236 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', '--global', 'yarn' ]
+2 info using npm@2.10.1
+3 info using node@v0.12.4
+4 verbose install initial load of /usr/local/lib/package.json
+5 verbose readDependencies loading dependencies from /usr/local/lib/package.json
+6 silly cache add args [ 'yarn', null ]
+7 verbose cache add spec yarn
+8 silly cache add parsed spec { raw: 'yarn',
+8 silly cache add   scope: null,
+8 silly cache add   name: 'yarn',
+8 silly cache add   rawSpec: '',
+8 silly cache add   spec: '*',
+8 silly cache add   type: 'range' }
+9 silly addNamed yarn@*
+10 verbose addNamed "*" is a valid semver range for yarn
+11 silly addNameRange { name: 'yarn', range: '*', hasData: false }
+12 silly mapToRegistry name yarn
+13 silly mapToRegistry using default registry
+14 silly mapToRegistry registry https://registry.npmjs.org/
+15 silly mapToRegistry uri https://registry.npmjs.org/yarn
+16 verbose addNameRange registry:https://registry.npmjs.org/yarn not in flight; fetching
+17 verbose request uri https://registry.npmjs.org/yarn
+18 verbose request no auth needed
+19 info attempt registry request try #1 at 11:50:08 AM
+20 verbose request id eb3c09e88f7c1818
+21 verbose etag W/"c0a433191929f8e6dbb72cdbfa4931f0"
+22 verbose lastModified Mon, 09 Mar 2020 16:21:11 GMT
+23 http request GET https://registry.npmjs.org/yarn
+24 http 304 https://registry.npmjs.org/yarn
+25 silly get cb [ 304,
+25 silly get   { date: 'Mon, 13 Apr 2020 16:50:08 GMT',
+25 silly get     connection: 'keep-alive',
+25 silly get     'set-cookie': [ '__cfduid=da951de5e580c3d52dd2d93adfe15ba541586796608; expires=Wed, 13-May-20 16:50:08 GMT; path=/; domain=.npmjs.org; HttpOnly; SameSite=Lax' ],
+25 silly get     'cf-ray': '5836af33894ce04d-DFW',
+25 silly get     'cache-control': 'public, max-age=300',
+25 silly get     etag: '"c0a433191929f8e6dbb72cdbfa4931f0"',
+25 silly get     'last-modified': 'Mon, 09 Mar 2020 16:21:11 GMT',
+25 silly get     vary: 'Accept-Encoding',
+25 silly get     'cf-cache-status': 'REVALIDATED',
+25 silly get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+25 silly get     server: 'cloudflare' } ]
+26 verbose etag https://registry.npmjs.org/yarn from cache
+27 verbose get saving yarn to /Users/chasepeysen 1/.npm/registry.npmjs.org/yarn/.cache.json
+28 silly addNameRange number 2 { name: 'yarn', range: '*', hasData: true }
+29 silly addNameRange versions [ 'yarn',
+29 silly addNameRange   [ '0.1.0',
+29 silly addNameRange     '0.1.1',
+29 silly addNameRange     '0.1.2',
+29 silly addNameRange     '0.1.3',
+29 silly addNameRange     '0.15.1',
+29 silly addNameRange     '0.16.0',
+29 silly addNameRange     '0.16.1',
+29 silly addNameRange     '0.17.0',
+29 silly addNameRange     '0.17.2',
+29 silly addNameRange     '0.17.3',
+29 silly addNameRange     '0.17.4',
+29 silly addNameRange     '0.17.5',
+29 silly addNameRange     '0.17.6',
+29 silly addNameRange     '0.17.7',
+29 silly addNameRange     '0.17.8',
+29 silly addNameRange     '0.17.9',
+29 silly addNameRange     '0.17.10',
+29 silly addNameRange     '0.18.0',
+29 silly addNameRange     '0.18.1',
+29 silly addNameRange     '0.19.0',
+29 silly addNameRange     '0.19.1',
+29 silly addNameRange     '0.20.0',
+29 silly addNameRange     '0.21.0',
+29 silly addNameRange     '0.20.3',
+29 silly addNameRange     '0.21.1',
+29 silly addNameRange     '0.21.2',
+29 silly addNameRange     '0.18.2',
+29 silly addNameRange     '0.20.4',
+29 silly addNameRange     '0.21.3',
+29 silly addNameRange     '0.22.0',
+29 silly addNameRange     '0.23.0',
+29 silly addNameRange     '0.23.1',
+29 silly addNameRange     '0.23.2',
+29 silly addNameRange     '0.23.3',
+29 silly addNameRange     '0.23.4',
+29 silly addNameRange     '0.24.0',
+29 silly addNameRange     '0.24.1',
+29 silly addNameRange     '0.24.2',
+29 silly addNameRange     '0.24.3',
+29 silly addNameRange     '0.24.4',
+29 silly addNameRange     '0.25.1',
+29 silly addNameRange     '0.24.5',
+29 silly addNameRange     '0.25.2',
+29 silly addNameRange     '0.24.6',
+29 silly addNameRange     '0.25.3',
+29 silly addNameRange     '0.25.4',
+29 silly addNameRange     '0.26.0',
+29 silly addNameRange     '0.26.1',
+29 silly addNameRange     '0.27.0',
+29 silly addNameRange     '0.27.1',
+29 silly addNameRange     '0.27.2',
+29 silly addNameRange     '0.27.3',
+29 silly addNameRange     '0.27.4',
+29 silly addNameRange     '0.27.5',
+29 silly addNameRange     '0.28.1',
+29 silly addNameRange     '0.28.4',
+29 silly addNameRange     '1.0.0',
+29 silly addNameRange     '1.0.1',
+29 silly addNameRange     '1.0.2',
+29 silly addNameRange     '1.1.0',
+29 silly addNameRange     '1.2.0',
+29 silly addNameRange     '1.2.1',
+29 silly addNameRange     '1.3.1',
+29 silly addNameRange     '1.3.2',
+29 silly addNameRange     '1.4.0',
+29 silly addNameRange     '1.5.0',
+29 silly addNameRange     '1.5.1',
+29 silly addNameRange     '1.6.0',
+29 silly addNameRange     '1.7.0',
+29 silly addNameRange     '1.8.0',
+29 silly addNameRange     '1.9.1',
+29 silly addNameRange     '1.9.2',
+29 silly addNameRange     '1.9.4',
+29 silly addNameRange     '1.10.0',
+29 silly addNameRange     '1.11.0',
+29 silly addNameRange     '1.10.1',
+29 silly addNameRange     '1.11.1',
+29 silly addNameRange     '1.12.0',
+29 silly addNameRange     '1.12.1',
+29 silly addNameRange     '1.12.3',
+29 silly addNameRange     '1.13.0',
+29 silly addNameRange     '1.14.0',
+29 silly addNameRange     '1.15.0',
+29 silly addNameRange     '1.15.1',
+29 silly addNameRange     '1.15.2',
+29 silly addNameRange     '1.16.0',
+29 silly addNameRange     '1.17.0',
+29 silly addNameRange     '1.17.1',
+29 silly addNameRange     '1.17.2',
+29 silly addNameRange     '1.17.3',
+29 silly addNameRange     '1.18.0',
+29 silly addNameRange     '1.19.0',
+29 silly addNameRange     '1.19.1',
+29 silly addNameRange     '1.19.2',
+29 silly addNameRange     '1.21.0',
+29 silly addNameRange     '1.21.1',
+29 silly addNameRange     '2.0.0-rc.24',
+29 silly addNameRange     '2.0.0-rc.27',
+29 silly addNameRange     '1.22.0',
+29 silly addNameRange     '1.22.1',
+29 silly addNameRange     '1.22.4' ] ]
+30 silly addNamed yarn@1.22.4
+31 verbose addNamed "1.22.4" is a plain semver version for yarn
+32 silly cache afterAdd yarn@1.22.4
+33 verbose afterAdd /Users/chasepeysen 1/.npm/yarn/1.22.4/package/package.json not in flight; writing
+34 verbose afterAdd /Users/chasepeysen 1/.npm/yarn/1.22.4/package/package.json written
+35 silly install resolved [ { name: 'yarn',
+35 silly install resolved     installationMethod: 'tar',
+35 silly install resolved     version: '1.22.4',
+35 silly install resolved     license: 'BSD-2-Clause',
+35 silly install resolved     preferGlobal: true,
+35 silly install resolved     description: '📦🐈 Fast, reliable, and secure dependency management.',
+35 silly install resolved     resolutions: { sshpk: '^1.14.2' },
+35 silly install resolved     engines: { node: '>=4.0.0' },
+35 silly install resolved     repository: { type: 'git', url: 'git+https://github.com/yarnpkg/yarn.git' },
+35 silly install resolved     bin: { yarn: './bin/yarn.js', yarnpkg: './bin/yarn.js' },
+35 silly install resolved     config: { commitizen: [Object] },
+35 silly install resolved     bugs: { url: 'https://github.com/yarnpkg/yarn/issues' },
+35 silly install resolved     homepage: 'https://github.com/yarnpkg/yarn#readme',
+35 silly install resolved     _id: 'yarn@1.22.4',
+35 silly install resolved     _shasum: '01c1197ca5b27f21edc8bc472cd4c8ce0e5a470e',
+35 silly install resolved     _resolved: 'https://registry.npmjs.org/yarn/-/yarn-1.22.4.tgz',
+35 silly install resolved     _from: 'yarn@*',
+35 silly install resolved     _npmVersion: '4.6.1',
+35 silly install resolved     _nodeVersion: '8.6.0',
+35 silly install resolved     _npmUser: { name: 'danbuild', email: 'build@dan.cx' },
+35 silly install resolved     dist:
+35 silly install resolved      { shasum: '01c1197ca5b27f21edc8bc472cd4c8ce0e5a470e',
+35 silly install resolved        tarball: 'https://registry.npmjs.org/yarn/-/yarn-1.22.4.tgz',
+35 silly install resolved        integrity: 'sha512-oYM7hi/lIWm9bCoDMEWgffW8aiNZXCWeZ1/tGy0DWrN6vmzjCXIKu2Y21o8DYVBUtiktwKcNoxyGl/2iKLUNGA==',
+35 silly install resolved        fileCount: 12,
+35 silly install resolved        unpackedSize: 5318565,
+35 silly install resolved        'npm-signature': '-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJeZmz0CRA9TVsSAnZWagAAY7AP/1bU/4eILnPKODHWpYVO\nuyhs24EFDE4Z8lmNucGKrKk40YIDAqvQLagfHT8dLQ7bWtzSq+HkCfyK8qbj\nkasQoLuUJG5CNz23s4u2zYdsdvtqn1DTYxKKmYN4FJZSc3MwlDpZl1xwus4o\nx5FVV5kbOxeGkpJdQEAmENk9NNBW0if+gkTTk5tf8dDIA/sRAAARjJ3Tcwge\n0FaRqkA6owoNEMWmR/75zVjSx3Oabm3IgTRlVmr4LFUPfXafufbB2D4fX6GF\nd7wsqRLYIk/CWZfP1wyuqWLkLYHCzLP5/TagY2KqLeSZC8YZnGULHqRRQORZ\neXW/g2uPycpd0DWDIZvah/yGKhineE4nb+rEwZmWbfdvJtTL5M3+X5Rq7dxY\nUYLZ8T22Y7QuygTLO1UG/vqLYvemueEe4LcsN6rfles16eEXzhy9vgJJGbHc\n09uae5RUgbSZp+ShbVXkf+oXNZn2fDp6cf/hOqPHIOGwlOfOkBiMc/liW413\n/ROtB1W5aasQopWmWYc0mhnYKRsMyqINUVayEQ9OBUbViYmTed87gYv7OZvx\nVjyD+dCSZ3o3tpHeHCH0SFA5+trXCFb15+B8aL0up/2h4J0GaYvj85MPoqKf\nGdF78iUn9bcBAM4a1wOtFSb7Q5BRF81lSt4+0NBdvmoMxRgB/n1chRBfSUIv\nqsSp\r\n=D8hN\r\n-----END PGP SIGNATURE-----\r\n' },
+35 silly install resolved     maintainers: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+35 silly install resolved     directories: {},
+35 silly install resolved     _npmOperationalInternal:
+35 silly install resolved      { host: 's3://npm-registry-packages',
+35 silly install resolved        tmp: 'tmp/yarn_1.22.4_1583770867926_0.9372388551648971' },
+35 silly install resolved     _hasShrinkwrap: false,
+35 silly install resolved     readme: 'ERROR: No README data found!' } ]
+36 info install yarn@1.22.4 into /usr/local/lib
+37 info installOne yarn@1.22.4
+38 verbose installOne of yarn to /usr/local/lib not in flight; installing
+39 verbose lock using /Users/chasepeysen 1/.npm/_locks/yarn-27fadec71f272279.lock for /usr/local/lib/node_modules/yarn
+40 warn engine yarn@1.22.4: wanted: {"node":">=4.0.0"} (current: {"node":"0.12.4","npm":"2.10.1"})
+41 silly install write writing yarn 1.22.4 to /usr/local/lib/node_modules/yarn
+42 verbose unbuild lib/node_modules/yarn
+43 silly gentlyRm /usr/local/lib/node_modules/yarn is being purged from base /usr/local
+44 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/yarn
+45 verbose tar unpack /Users/chasepeysen 1/.npm/yarn/1.22.4/package.tgz
+46 verbose tar unpacking to /usr/local/lib/node_modules/yarn
+47 silly gentlyRm /usr/local/lib/node_modules/yarn is being purged
+48 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/yarn
+49 silly gunzTarPerm modes [ '755', '644' ]
+50 error tar.unpack untar error /Users/chasepeysen 1/.npm/yarn/1.22.4/package.tgz
+51 verbose unlock done using /Users/chasepeysen 1/.npm/_locks/yarn-27fadec71f272279.lock for /usr/local/lib/node_modules/yarn
+52 verbose fstream_path /usr/local/lib/node_modules/yarn
+53 verbose fstream_type Directory
+54 verbose fstream_class DirWriter
+55 verbose stack Error: EACCES, mkdir '/usr/local/lib/node_modules/yarn'
+55 verbose stack     at Error (native)
+56 verbose fstream_stack /usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:35:25
+56 verbose fstream_stack /usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:47:53
+56 verbose fstream_stack FSReqWrap.oncomplete (fs.js:95:15)
+57 verbose cwd /Users/chasepeysen 1/PhpstormProjects/FTD
+58 error Darwin 19.4.0
+59 error argv "node" "/usr/local/bin/npm" "install" "--global" "yarn"
+60 error node v0.12.4
+61 error npm  v2.10.1
+62 error path /usr/local/lib/node_modules/yarn
+63 error code EACCES
+64 error errno -13
+65 error Error: EACCES, mkdir '/usr/local/lib/node_modules/yarn'
+65 error     at Error (native)
+65 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules/yarn']
+65 error   errno: -13,
+65 error   code: 'EACCES',
+65 error   path: '/usr/local/lib/node_modules/yarn',
+65 error   fstream_type: 'Directory',
+65 error   fstream_path: '/usr/local/lib/node_modules/yarn',
+65 error   fstream_class: 'DirWriter',
+65 error   fstream_stack:
+65 error    [ '/usr/local/lib/node_modules/npm/node_modules/fstream/lib/dir-writer.js:35:25',
+65 error      '/usr/local/lib/node_modules/npm/node_modules/mkdirp/index.js:47:53',
+65 error      'FSReqWrap.oncomplete (fs.js:95:15)' ] }
+66 error Please try running this command again as root/Administrator.
+67 verbose exit [ -13, true ]
+68 verbose unbuild lib/node_modules/yarn
+69 silly gentlyRm /usr/local/lib/node_modules/yarn is being purged from base /usr/local
+70 verbose gentlyRm don't care about contents; nuking /usr/local/lib/node_modules/yarn
